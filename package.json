@@ -1,0 +1,28 @@
+{
+  "name": "scriptmanager",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Windows 本地脚本库 + AI 生成助手（Web UI）",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev:server": "node server/app.js --no-token --no-open",
+    "dev": "vite",
+    "build": "vite build",
+    "build:exe": "node tools/build-exe.mjs",
+    "test": "node --test \"tests/**/*.test.js\""
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "esbuild": "^0.28.2",
+    "postject": "^1.0.0-alpha.6",
+    "typescript": "^7.0.2",
+    "vite": "^6.4.5"
+  }
+}

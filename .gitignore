@@ -1,0 +1,9 @@
+node_modules/
+web/dist/
+config.json
+library.json
+run-history.json
+ai-history.json
+logs/
+build/
+release/
